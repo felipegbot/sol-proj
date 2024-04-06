@@ -9,11 +9,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
     "@solana-developers/helpers": "^1.5.1",
-    "@solana/web3.js": "^1.89.1",
+    "@solana/spl-single-pool": "^1.0.0",
+    "@solana/spl-token": "^0.4.0",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@solana/web3.js": "^1.91.3",
+    "@types/request-promise": "^4.1.51",
     "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
+    "puppeteer": "^22.6.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
